@@ -8,15 +8,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0"
-  },
-  "dependencies": {
-    "@fullcalendar/core": "^5.11.3",
-    "@fullcalendar/daygrid": "^5.11.3",
-    "@fullcalendar/interaction": "^5.11.3",
-    "@fullcalendar/list": "^5.11.3",
-    "@fullcalendar/timegrid": "^5.11.3",
-    "@fullcalendar/vue3": "^5.11.3",
-    "element-plus": "^2.2.25"
+    "nuxt": "3.0.0"
   }
 }

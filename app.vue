@@ -1,20 +1,5 @@
-
 <template>
-  <div>
-   
-    <ClientOnly>
-      <FullCalendar :options="FullCalendar.options" />
-    </ClientOnly>
-  </div>
+<div>
+  <h1>這是測試</h1>
+</div>
 </template>
-
-<script lang="ts" setup>
-import { ref, onMounted } from 'vue';
-const { $fullCalendar } = useNuxtApp()
-const FullCalendar = $fullCalendar
-</script>
-
-<style>
-@import 'element-plus/dist/index.css';
-@import './assets/css/fullcalendar.css';
-</style>
